@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mavericks: Tour and Travels</title>
+
+    <!--Font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <!-- css and javascript linking -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <!--header section starts-->
+    <div class="header">
+        <nav>
+
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+
+            <div class="content">
+
+                <div class="logo">
+                    <div class="logo"><a href="index.html"><img src="images/MAVERICKS Tour and Travels.png" height="100" width="100"></a></div>
+                </div>
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                </ul>
+            </div>
+            <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+            <form action="#" class="search-box">
+                <input type="text" placeholder="Search" required>
+                <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+            </form>
+        </nav>
+    </div>
+    <!--header section ends-->
+
+    <!--home section starts-->
+    <section class="home" id="home">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="images/31569-387675206_large.mp4" type="video/mp4">
+        </video>
+        <div class="home-content">
+            <h3>"SOME BEAUTIFUL PATHS CAN'T BE
+                <br>DISCOVERED WITHOUT GETTING LOST"
+            </h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos necessitatibus eaque iure?</p>
+        <a href="#packages"><button id="home-btn">Explore Now<i class="fa-solid fa-arrow-down"></i><button id="home-btn2"><i class="fa-sharp fa-solid fa-circle-play"></i></button></a>
+
+    </section>
+
+     <!--home section ends-->
+
+
+    <!--about section starts-->
+
+    <section class="about" id="about">
+        <div class="video-container">
+            <video src="images/about_video_1.mp4" muted autoplay loop class="about-video"></video>
+            <div class="controls">
+                <span class="control-btn" data-src="images/about_video_1.mp4"></span>
+                <span class="control-btn" data-src="images/about_video2.mp4"></span>
+                <span class="control-btn" data-src="images/about_video3.mp4"></span>
+            </div>
+        </div>  
+        <div class="about-content">
+            <span>Why Choose Us?</span>
+            <h3>Nature's Majesty Awaits You</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos reiciendis expedita adipisci molestiae, ipsam soluta delectus perferendis facere exercitationem at.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    
+    <!--about section ends-->
+
+    <!-- Packages Section Starts -->
+
+    <section class="package" id="packages">
+        <div class="heading">
+            <span>Our Packages</span>
+            <h1>Make Yours Destination</h1>
+        </div>
+
+        <div class="box-conatiner">
+            <div class="box">
+                <div class="image">
+                    <video src="images/mumbai_package.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>MUMBAI</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <video src="images/uttrakhand-package.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>Uttarakhand</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <video src="images/about_video3.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>Kashmir</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <video src="images/goa-package.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>GOA</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <video src="images/Paris-package.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>PARIS</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <video src="images/maldives-package.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>MALDIVES</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <video src="images/dubai-package.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>DUBAI</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <video src="images/london-package.mp4" autoplay muted loop></video>
+                </div>
+                <div class="title">
+                    <h2>LONDON</h2>
+                </div>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="info">Read More..</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Packages Section ends -->
+
+
+    <!-- Services Section starts -->
+
+    <section class="services" id="services">
+
+        <div class="heading">
+            <span>Our Services</span>
+            <h1>Countless Expereinces</h1>
+        </div>
+
+        <div class="card-container">
+
+            <div class="card">
+                <i class="fas fa-globe"></i>
+                <h3>Worldwide</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventurous</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-utensils"></i>
+                <h3>Food & Drinks</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            
+            <div class="card">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-wallet"></i>
+                <h3>Affordable Packages</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section ends -->
+
+    <!-- Gallery Section starts -->
+    <section class="gallery" id="gallery">
+
+        
+        <div class="heading">
+            <span>Our Gallery</span>
+            <h1>Collecting Memories </h1>
+        </div>
+
+        <div class="album">
+
+            <div class="album-iamge">
+                <img src="images/gallery1.png">
+                <span>Travel Spot</span>
+                <h3>Mysore (India)</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery2.jpg">
+                <span>Travel Spot</span>
+                <h3>Amritsar (India)</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery5.jpg">
+                <span>Travel Spot</span>
+                <h3>Kedarnath (India)</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/istockphoto-511119416-612x612.jpg">
+                <span>Travel Spot</span>
+                <h3>Jaipur (India)</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery3.jpg">
+                <span>Travel Spot</span>
+                <h3>Nepal</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery4.jpg">
+                <span>Travel Spot</span>
+                <h3>Greece</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery6.jpg">
+                <span>Travel Spot</span>
+                <h3>Greenland</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery7.jpg">
+                <span>Travel Spot</span>
+                <h3>Iceland</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery8.jpg">
+                <span>Travel Spot</span>
+                <h3>Maldives</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery9.jpg">
+                <span>Travel Spot</span>
+                <h3>Egypt</h3>
+            </div>
+
+            <div class="album-iamge">
+                <img src="images/gallery10.jpg">
+                <span>Travel Spot</span>
+                <h3>Mexico</h3>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- Gallery Section endss -->
+
+    <!-- Review Section starts -->
+    <section class="review">
+        <div class="review-contain">
+            <div class="container-left">
+                <h1>Read What Our Customers Loved About Us </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odit nesciunt quibusdam officia? Magnam fugiat saepe ex labore, aliquam esse.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit tenetur obcaecati molestias odio modi voluptatibus consequatur possimus iure quisquam doloribus.</p>
+                <button>Read Our Succeess Stories</button>
+            </div>
+            <div class="container-right">
+                <div class="review-card">
+                    <img src="images/elvish-review.jpg">
+                    <div class="card-content">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <div class="card-details">
+                            <p>Elvisshhh Bhaiii!! Elvish Bhai ke aage koi kuch bol sakta hai kya</p>
+                            <h3>By- Elvish Yadav</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <img src="images/mc_review.jpg">
+                    <div class="card-content">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <div class="card-details">
+                            <p>80 lakh ke joote  hai, 80lakh ke!! Isme tera ghar chala jaaiyeengaa</p>
+                            <h3>By- MC Stan</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <img src="images/dolly_review.jpg">
+                    <div class="card-content">
+                        <span><i class="ri-double-quotes-l"></i></span>
+                        <div class="card-details">
+                            <p>Le thook diya teri padhai pe</p>
+                            <h3>By- Dolly Chai Wala</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Review Section ends -->
+
+    <!-- Blogs Section starts -->
+
+    <section class="blogs" id="blog">
+
+        <div class="heading">
+            <span>Blogs & Posts</span>
+            <h1>We Unwrap Stories</h1>
+        </div>
+
+        <div class="blogs-container">
+
+            <div class="posts-box">
+                <div class="posts">
+                <img src="images/blog1.jpg">
+                </div>
+                <div class="blog-content">
+                    <a href="#" class="link">Life is a journey not the destination</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sunt.</p>
+                    <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i>21st Dec, 2022</a>
+                    <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="posts-box">
+                <div class="posts">
+                <img src="images/blog2.jpg">
+                </div>
+                <div class="blog-content">
+                    <a href="#" class="link">Lets Travel Together and get Lost</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sunt.</p>
+                    <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i>22nd Nov, 2023</a>
+                    <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="posts-box">
+                <div class="posts">
+                <img src="images/blog3.jpg">
+                </div>
+                <div class="blog-content">
+                    <a href="#" class="link">Time Together as a Family is a Gift</a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, sunt.</p>
+                    <div class="icon">
+                    <a href="#"><i class="fas fa-clock"></i>21st May, 2024</a>
+                    <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs Section ends -->
+
+    <!-- Footer Section Starts -->
+
+    <section class="footer">
+        <div class="foot-container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: themavericks2024@gmail.com</p>
+                <p>Phone Number: 1282358558</p>
+                <p>Address: Your Address 112345 Street</p>
+            </div>
+
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul class="foot-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>Created By: The Mavericks || All Rights Reserved</p>
+        </div>
+    </section>
+    <!-- Footer Section ends -->
+
+
+
+
+    
+
+
+    
+</body>
+</html>
